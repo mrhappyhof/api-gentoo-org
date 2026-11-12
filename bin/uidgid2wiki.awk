@@ -1,7 +1,9 @@
-#!/usr/bin/awk -f
+#!/usr/bin/gawk -f
+# Copyright 2019-2025 Gentoo Authors
+# Distributed under the terms of the MIT license
 
 BEGIN {
-	print "<!-- DO NOT EDIT, generated automatically by uidgid2iki.awk -->"
+	print "<!-- DO NOT EDIT, generated automatically by uidgid2wiki.awk -->"
 	print "{|class=\"wikitable sortable\""
 	print "! Name"
 	print "! data-sort-type=\"number\" | UID"
@@ -25,11 +27,11 @@ function md2wiki(str) {
 	# provider
 	switch ($4) {
 		case "baselayout":
-			print "| style=\"background: #cff;\" | baselayout (linux)"
+			print "| style=\"background: #cff;\" | baselayout"
 			break
-		case "baselayout-fbsd":
-			print "| style=\"background: #ccf;\" | baselayout (fbsd)"
-			break
+		#case "baselayout-fbsd":
+		#	print "| style=\"background: #ccf;\" | baselayout (fbsd)"
+		#	break
 		case "acct":
 			printf "%s", "| style=\"background: #9fc;\" |"
 			if ($2 != "-") printf " %s", "[https://gitweb.gentoo.org/repo/gentoo.git/tree/acct-user/" $1 " u:" $1 "]"
@@ -58,4 +60,7 @@ function md2wiki(str) {
 
 END {
 	print "|}"
+	print ""
+	print "<!-- DO NOT EDIT, generated automatically by uidgid2wiki.awk -->"
+	print "[[Category:Gentoo development]]"
 }

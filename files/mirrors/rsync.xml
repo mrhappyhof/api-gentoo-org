@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!--
 vim: ft=xml et ts=2 sts=2 sw=2:
 -->
@@ -12,16 +13,16 @@ vim: ft=xml et ts=2 sts=2 sw=2:
       <uri protocol="rsync" ipv4="y" ipv6="n" partial="n">rsync://rsync1.ca.gentoo.org</uri>
     </mirror>
     <mirror>
-      <name>Gossamer Threads</name>
-      <uri protocol="rsync" ipv4="y" ipv6="n" partial="n">rsync://rsync2.ca.gentoo.org</uri>
-    </mirror>
-    <mirror>
-      <name>Memorial University - rsync3.ca.gentoo.org</name>
-      <uri protocol="rsync" ipv4="y" ipv6="n" partial="n">rsync://rsync3.ca.gentoo.org</uri>
-    </mirror>
-    <mirror>
       <name>University of Waterloo - rsync4.ca.gentoo.org</name>
       <uri protocol="rsync" ipv4="y" ipv6="n" partial="n">rsync://rsync4.ca.gentoo.org</uri>
+    </mirror>
+    <!--<mirror>
+      <name>FailZero / Genesis Hosting Technologies - rsync7.ca.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync7.ca.gentoo.org</uri>
+    </mirror>-->
+    <mirror>
+      <name>Reenigne - rsync12.ca.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync12.ca.gentoo.org</uri>
     </mirror>
   </mirrorgroup>
   <mirrorgroup region="North America (rsync.namerica.gentoo.org)" country="US" countryname="USA">
@@ -30,40 +31,82 @@ vim: ft=xml et ts=2 sts=2 sw=2:
       <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync.us.gentoo.org</uri>
     </mirror>
     <mirror>
-      <name>Georgia Tech - rsync3.us.gentoo.org</name>
-      <uri protocol="rsync" ipv4="y" ipv6="n" partial="n">rsync://rsync3.us.gentoo.org</uri>
+      <name>Rochester Institute of Technology - rsync5.us.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync5.us.gentoo.org</uri>
     </mirror>
     <mirror>
       <name>Steadfast Networks - rsync11.us.gentoo.org</name>
       <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync11.us.gentoo.org</uri>
     </mirror>
     <mirror>
-      <name>TDS Internet Services - rsync26.us.gentoo.org</name>
-      <uri protocol="rsync" ipv4="y" ipv6="n" partial="n">rsync://rsync26.us.gentoo.org</uri>
+      <name>Rackspace Technology - rsync31.us.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="n" partial="n">rsync://rsync31.us.gentoo.org</uri>
     </mirror>
     <mirror>
-      <name>Silicon Valley Web Hosting - rsync30.us.gentoo.org</name>
-      <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync30.us.gentoo.org</uri>
+      <name>PlanetUnix Networks - rsync32.us.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync32.us.gentoo.org</uri>
+    </mirror>
+    <mirror>
+      <name>MIT - rsync34.us.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="n" partial="n">rsync://rsync34.us.gentoo.org</uri>
+    </mirror>
+    <mirror>
+      <name>University of Maryland - rsync35.us.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="n" partial="n">rsync://rsync35.us.gentoo.org</uri>
+    </mirror>
+    <mirror>
+      <name>kernel.org - rsync36.us.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync36.us.gentoo.org</uri>
+    </mirror>
+    <mirror>
+      <name>mirror.rosely.me - rsync37.us.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync37.us.gentoo.org</uri>
     </mirror>
   </mirrorgroup>
-  <mirrorgroup region="South America (rsync.samerica.gentoo.org)" country="BR" countryname="Brazil">
+  <mirrorgroup region="Europe (rsync.europe.gentoo.org)" country="BE" countryname="Belgium">
+    <mirror>
+      <name>Any available mirror - rsync.be.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync.be.gentoo.org</uri>
+    </mirror>
+    <mirror>
+      <name>BOINC Team Belgium - rsync1.be.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync1.be.gentoo.org</uri>
+    </mirror>
+  </mirrorgroup>
+  <!--<mirrorgroup region="South America (rsync.samerica.gentoo.org)" country="BR" countryname="Brazil">
     <mirror>
       <name>Any available mirror - rsync.br.gentoo.org</name>
       <uri protocol="rsync" ipv4="y" ipv6="n" partial="n">rsync://rsync.br.gentoo.org</uri>
     </mirror>
-  </mirrorgroup>
-  <mirrorgroup region="Europe (rsync.europe.gentoo.org)" country="AT" countryname="Austria">
+  </mirrorgroup>-->
+  <mirrorgroup region="Europe (rsync.europe.gentoo.org)" country="BG" countryname="Bulgaria">
     <mirror>
-      <name>Any available mirror - rsync.at.gentoo.org</name>
-      <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync.at.gentoo.org</uri>
+      <name>Any available mirror - rsync.bg.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="n" partial="n">rsync://rsync.bg.gentoo.org</uri>
     </mirror>
-    <!--<mirror>
-      <name>Inode - rsync1.at.gentoo.org</name>
-      <uri protocol="rsync" ipv4="y" ipv6="n" partial="n">rsync://rsync1.at.gentoo.org</uri>
-    </mirror>-->
     <mirror>
-      <name>Lagis - rsync2.at.gentoo.org</name>
-      <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync2.at.gentoo.org</uri>
+      <name>Telepoint Ltd - rsync2.bg.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync2.bg.gentoo.org</uri>
+    </mirror>
+  </mirrorgroup>
+  <mirrorgroup region="Europe (rsync.europe.gentoo.org)" country="RS" countryname="Serbia">
+    <mirror>
+      <name>Any available mirror - rsync.rs.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="n" partial="n">rsync://rsync.rs.gentoo.org</uri>
+    </mirror>
+    <mirror>
+      <name>sbb.rs - rsync1.rs.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="n" partial="n">rsync://rsync1.rs.gentoo.org</uri>
+    </mirror>
+  </mirrorgroup>
+  <mirrorgroup region="Europe (rsync.europe.gentoo.org)" country="CH" countryname="Switzerland">
+    <mirror>
+      <name>Any available mirror - rsync.ch.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="n" partial="n">rsync://rsync.ch.gentoo.org</uri>
+    </mirror>
+    <mirror>
+      <name>MDAPI - rsync1.ch.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync1.ch.gentoo.org</uri>
     </mirror>
   </mirrorgroup>
   <mirrorgroup region="Europe (rsync.europe.gentoo.org)" country="CZ" countryname="Czech Republic">
@@ -72,8 +115,20 @@ vim: ft=xml et ts=2 sts=2 sw=2:
       <uri protocol="rsync" ipv4="y" ipv6="n" partial="n">rsync://rsync.cz.gentoo.org</uri>
     </mirror>
     <mirror>
-      <name>UPC Česká republika, a.s - rsync1.cz.gentoo.org.</name>
-      <uri protocol="rsync" ipv4="y" ipv6="n" partial="n">rsync://rsync1.cz.gentoo.org</uri>
+      <name>UPC Česká republika, a.s - rsync1.cz.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync1.cz.gentoo.org</uri>
+    </mirror>
+    <mirror>
+      <name>Sincoolka Mirror (Club Sincoolka, Czech Technical University in Prague) - rsync2.cz.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync2.cz.gentoo.org</uri>
+    </mirror>
+    <mirror>
+      <name>NIC.CZ - rsync3.cz.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync3.cz.gentoo.org</uri>
+    </mirror>
+    <mirror>
+      <name>vpsfree.cz - rsync4.cz.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync4.cz.gentoo.org</uri>
     </mirror>
   </mirrorgroup>
   <mirrorgroup region="Europe (rsync.europe.gentoo.org)" country="DE" countryname="Germany">
@@ -84,10 +139,6 @@ vim: ft=xml et ts=2 sts=2 sw=2:
     <mirror>
       <name>Gentoo e.V. - rsync1.de.gentoo.org</name>
       <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync1.de.gentoo.org</uri>
-    </mirror>
-    <mirror>
-      <name>I-Node - rsync5.de.gentoo.org</name>
-      <uri protocol="rsync" ipv4="y" ipv6="n" partial="n">rsync://rsync5.de.gentoo.org</uri>
     </mirror>
     <mirror>
       <name>stealer.net - rsync7.de.gentoo.org</name>
@@ -106,12 +157,26 @@ vim: ft=xml et ts=2 sts=2 sw=2:
       <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync10.de.gentoo.org</uri>
     </mirror>
     <mirror>
-      <name>mirror.amiconsult.de - rsync12.de.gentoo.org</name>
-      <uri protocol="rsync" ipv4="y" ipv6="n" partial="n">rsync://rsync12.de.gentoo.org</uri>
+      <name>RWTH Aachen University - rsync15.de.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync15.de.gentoo.org</uri>
     </mirror>
     <mirror>
-      <name>RWTH Aachen University</name>
-      <uri protocol="rsync" ipv4="y" ipv6="n" partial="n">rsync://rsync15.de.gentoo.org</uri>
+      <name>mirror.netzwerge.de - rsync17.de.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync17.de.gentoo.org</uri>
+    </mirror>
+    <mirror>
+      <name>ftp.fau.de - rsync18.de.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync18.de.gentoo.org</uri>
+    </mirror>
+  </mirrorgroup>
+  <mirrorgroup region="Europe (rsync.europe.gentoo.org)" country="DK" countryname="Denmark">
+    <mirror>
+      <name>Any available mirror - rsync.dk.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync.dk.gentoo.org</uri>
+    </mirror>
+    <mirror>
+      <name>dotsrc.org - rsync1.dk.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync1.dk.gentoo.org</uri>
     </mirror>
   </mirrorgroup>
   <mirrorgroup region="Europe (rsync.europe.gentoo.org)" country="FR" countryname="France">
@@ -120,10 +185,20 @@ vim: ft=xml et ts=2 sts=2 sw=2:
       <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync.fr.gentoo.org</uri>
     </mirror>
     <mirror>
-      <name>Linuxant.fr - rsync1.fr.gentoo.org</name>
+      <name>soeasyto.com - rsync1.fr.gentoo.org</name>
       <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync1.fr.gentoo.org</uri>
     </mirror>
+    <mirror>
+      <name>Page Asgardius - rsync3.fr.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="n" partial="n">rsync://rsync3.fr.gentoo.org</uri>
+    </mirror>
   </mirrorgroup>
+  <!--<mirrorgroup region="Europe (rsync.europe.gentoo.org)" country="IE" countryname="Ireland">
+    <mirror>
+      <name>Any available mirror - rsync.ie.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="n" partial="n">rsync://rsync.ie.gentoo.org</uri>
+    </mirror>
+  </mirrorgroup>-->
   <mirrorgroup region="Europe (rsync.europe.gentoo.org)" country="NL" countryname="Netherlands">
     <mirror>
       <name>Any available mirror - rsync.nl.gentoo.org</name>
@@ -137,15 +212,11 @@ vim: ft=xml et ts=2 sts=2 sw=2:
   <mirrorgroup region="Europe (rsync.europe.gentoo.org)" country="PL" countryname="Poland">
     <mirror>
       <name>Any available mirror - rsync.pl.gentoo.org</name>
-      <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync.pl.gentoo.org</uri>
+      <uri protocol="rsync" ipv4="y" ipv6="n" partial="n">rsync://rsync.pl.gentoo.org</uri>
     </mirror>
     <mirror>
-      <name>Institute of Theoretical Physics University of Wroclaw, Poland - rsync1.pl.gentoo.org</name>
-      <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync1.pl.gentoo.org</uri>
-    </mirror>
-    <mirror>
-      <name>Vectranet - rsync7.pl.gentoo.org</name>
-      <uri protocol="rsync" ipv4="y" ipv6="n" partial="n">rsync://rsync7.pl.gentoo.org</uri>
+      <name>All-Day Developer Marcin Wawrzków - rsync8.pl.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync8.pl.gentoo.org</uri>
     </mirror>
   </mirrorgroup>
   <mirrorgroup region="Europe (rsync.europe.gentoo.org)" country="PT" countryname="Portugal">
@@ -164,8 +235,22 @@ vim: ft=xml et ts=2 sts=2 sw=2:
       <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync.ro.gentoo.org</uri>
     </mirror>
     <mirror>
-      <name>Romanian Organization Network</name>
+      <name>Romanian Organization Network - rsync3.ro.gentoo.org</name>
       <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync3.ro.gentoo.org</uri>
+    </mirror>
+  </mirrorgroup>
+  <mirrorgroup region="Europe (rsync.europe.gentoo.org)" country="SE" countryname="Sweden">
+    <mirror>
+      <name>Any available mirror - rsync.se.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync.se.gentoo.org</uri>
+    </mirror>
+    <mirror>
+      <name>tnonline.net - rsync1.se.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync1.se.gentoo.org</uri>
+    </mirror>
+    <mirror>
+      <name>Linköping University - Lysator - rsync2.se.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="n" partial="n">rsync://rsync2.se.gentoo.org</uri>
     </mirror>
   </mirrorgroup>
   <mirrorgroup region="Europe (rsync.europe.gentoo.org)" country="SK" countryname="Slovakia">
@@ -182,7 +267,7 @@ vim: ft=xml et ts=2 sts=2 sw=2:
       <uri protocol="rsync" ipv4="y" ipv6="n" partial="n">rsync://rsync3.sk.gentoo.org</uri>
     </mirror>
   </mirrorgroup>
-  <mirrorgroup region="Europe (rsync.europe.gentoo.org)" country="UK" countryname="UK">
+  <mirrorgroup region="Europe (rsync.europe.gentoo.org)" country="UK" countryname="United Kingdom">
     <mirror>
       <name>Any available mirror - rsync.uk.gentoo.org</name>
       <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync.uk.gentoo.org</uri>
@@ -192,8 +277,12 @@ vim: ft=xml et ts=2 sts=2 sw=2:
       <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync2.uk.gentoo.org</uri>
     </mirror>
     <mirror>
-      <name>Get Hosted online - mirrors.gethosted.online/gentoo</name>
-      <uri protocol="rsync" ipv4="y" ipv6="n" partial="n">rsync://mirrors.gethosted.online/gentoo</uri>
+      <name>Rackspace Technology - rsync4.uk.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="n" partial="n">rsync://rsync4.uk.gentoo.org</uri>
+    </mirror>
+    <mirror>
+      <name>The UK Mirror Service - rsync5.uk.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync5.uk.gentoo.org</uri>
     </mirror>
   </mirrorgroup>
   <mirrorgroup region="Australia (rsync.au.gentoo.org)" country="AU" countryname="Australia">
@@ -206,8 +295,12 @@ vim: ft=xml et ts=2 sts=2 sw=2:
       <uri protocol="rsync" ipv4="y" ipv6="n" partial="n">rsync://rsync1.au.gentoo.org</uri>
     </mirror>
     <mirror>
-      <name>Viktor Villafuerte</name>
+      <name>velladecin - rsync2.au.gentoo.org</name>
       <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync2.au.gentoo.org</uri>
+    </mirror>
+    <mirror>
+      <name>Rackspace Technology - rsync3.au.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="n" partial="n">rsync://rsync3.au.gentoo.org</uri>
     </mirror>
   </mirrorgroup>
   <mirrorgroup region="Asia (rsync.asia.gentoo.org)" country="CN" countryname="China">
@@ -216,18 +309,26 @@ vim: ft=xml et ts=2 sts=2 sw=2:
       <uri protocol="rsync" ipv4="y" ipv6="n" partial="n">rsync://rsync.cn.gentoo.org</uri>
     </mirror>
     <mirror>
-      <name>Tsinghua University - rsync1.cn.gentoo.org</name>
-      <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync1.cn.gentoo.org</uri>
+      <name>Rackspace Technology - rsync3.cn.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="n" partial="n">rsync://rsync3.cn.gentoo.org</uri>
     </mirror>
   </mirrorgroup>
   <mirrorgroup region="Asia (rsync.asia.gentoo.org)" country="JP" countryname="Japan">
     <mirror>
       <name>Any available mirror - rsync.jp.gentoo.org</name>
-      <uri protocol="rsync" ipv4="y" ipv6="n" partial="n">rsync://rsync.jp.gentoo.org</uri>
+      <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync.jp.gentoo.org</uri>
+    </mirror>
+    <mirror>
+      <name>JAIST - rsync3.jp.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync3.jp.gentoo.org</uri>
     </mirror>
     <mirror>
       <name>wide.ad.jp - rsync5.jp.gentoo.org</name>
-      <uri protocol="rsync" ipv4="y" ipv6="n" partial="n">rsync://rsync5.jp.gentoo.org</uri>
+      <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync5.jp.gentoo.org</uri>
+    </mirror>
+    <mirror>
+      <name>Rin Cat - rsync6.jp.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync6.jp.gentoo.org</uri>
     </mirror>
   </mirrorgroup>
   <mirrorgroup region="Asia (rsync.asia.gentoo.org)" country="KR" countryname="South Korea">
@@ -239,6 +340,14 @@ vim: ft=xml et ts=2 sts=2 sw=2:
       <name>KAIST - rsync1.kr.gentoo.org</name>
       <uri protocol="rsync" ipv4="y" ipv6="n" partial="n">rsync://rsync1.kr.gentoo.org</uri>
     </mirror>
+    <mirror>
+      <name>Keiverse - rsync2.kr.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="n" partial="n">rsync://rsync2.kr.gentoo.org</uri>
+    </mirror>
+    <mirror>
+      <name>Keiverse 2 - rsync3.kr.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="n" partial="n">rsync://rsync3.kr.gentoo.org</uri>
+    </mirror>
   </mirrorgroup>
   <mirrorgroup region="Asia (rsync.asia.gentoo.org)" country="RU" countryname="Russia">
     <mirror>
@@ -246,12 +355,16 @@ vim: ft=xml et ts=2 sts=2 sw=2:
       <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync.ru.gentoo.org</uri>
     </mirror>
     <mirror>
-      <name>bloodhost.ru - rsync1.ru.gentoo.org</name>
-      <uri protocol="rsync" ipv4="y" ipv6="n" partial="n">rsync://rsync1.ru.gentoo.org</uri>
-    </mirror>
-    <mirror>
       <name>Yandex.ru - rsync2.ru.gentoo.org</name>
       <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync2.ru.gentoo.org</uri>
+    </mirror>
+    <mirror>
+      <name>alexxy.name - rsync4.ru.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync4.ru.gentoo.org</uri>
+    </mirror>
+    <mirror>
+      <name>MEPhI - rsync5.ru.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="n" partial="n">rsync://rsync5.ru.gentoo.org</uri>
     </mirror>
   </mirrorgroup>
   <mirrorgroup region="Asia (rsync.asia.gentoo.org)" country="TW" countryname="Taiwan">
@@ -260,12 +373,30 @@ vim: ft=xml et ts=2 sts=2 sw=2:
       <uri protocol="rsync" ipv4="y" ipv6="n" partial="n">rsync://rsync.tw.gentoo.org</uri>
     </mirror>
     <mirror>
-      <name>linux.cs.nctu.edu.tw - rsync1.tw.gentoo.org</name>
+      <name>NCTU CSCC - rsync1.tw.gentoo.org</name>
       <uri protocol="rsync" ipv4="y" ipv6="n" partial="n">rsync://rsync1.tw.gentoo.org</uri>
     </mirror>
     <mirror>
       <name>National Center for High-Performance Computing - rsync6.tw.gentoo.org</name>
       <uri protocol="rsync" ipv4="y" ipv6="n" partial="n">rsync://rsync6.tw.gentoo.org</uri>
+    </mirror>
+  </mirrorgroup>
+  <mirrorgroup region="Africa" country="ZA" countryname="South Africa">
+    <mirror>
+      <name>Any available mirror - rsync.za.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync.za.gentoo.org</uri>
+    </mirror>
+    <mirror>
+      <name>Interexcel World Connection (Pty) Ltd / Ultimate Linux Solutions (Pty) Ltd - rsync1.za.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync1.za.gentoo.org</uri>
+    </mirror>
+    <mirror>
+      <name>Dimension Data - rsync2.za.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync2.za.gentoo.org</uri>
+    </mirror>
+    <mirror>
+      <name>ZANOG, administered by Ultimate Linux Solutions - rsync3.za.gentoo.org</name>
+      <uri protocol="rsync" ipv4="y" ipv6="y" partial="n">rsync://rsync3.za.gentoo.org</uri>
     </mirror>
   </mirrorgroup>
 </mirrors>
